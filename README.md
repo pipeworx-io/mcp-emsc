@@ -78,3 +78,13 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+```bash
+curl -X POST https://gateway.pipeworx.io/v1/tools/emsc_search_earthquakes \
+  -H 'Content-Type: application/json' \
+  -d '{"start":"2026-01-01","end":"2026-02-01","minmag":5,"orderby":"magnitude"}'
+```
+
+No account needed for the first calls. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/emsc_search_earthquakes`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
