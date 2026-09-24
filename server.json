@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/emsc",
   "title": "Emsc",
   "description": "EMSC (European-Mediterranean Seismological Centre) MCP — wraps the",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/emsc",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-emsc",
