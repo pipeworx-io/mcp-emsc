@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-emsc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "EMSC (European-Mediterranean Seismological Centre) MCP — wraps the",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-6eca75c7d91a5f43b2b0c4d5941ea03eb42789a3712dd4f17acb9c5ab957bb41",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-6c37519e1ada72ea27de87d45cd3b43cf0026dc409777ef475e44ecba301e7e4",
+    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
   }
 }
